@@ -3,7 +3,6 @@
 .vscode/
 *-dev/
 .dockerignore
-.gitattributes
 .gitignore
 LICENSE
 README.md
