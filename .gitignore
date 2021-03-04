@@ -1,0 +1,6 @@
+### Code ###
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+*.code-workspace
+.devcontainer/*
