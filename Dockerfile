@@ -26,7 +26,8 @@ RUN apt update \
     && apt --assume-yes install --no-install-recommends \
     apt-utils \
     ca-certificates \
-    curl
+    curl \
+    make
 
 RUN apt --assume-yes install --no-install-recommends locales \
     && echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen \
