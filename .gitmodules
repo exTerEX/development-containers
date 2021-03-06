@@ -1,24 +1,18 @@
 [submodule "cpp-dev"]
-	path = .
+	path = cpp-dev
 	url = ../cpp-dev.git
-	branch = .
 [submodule "golang-dev"]
-	path = .
+	path = golang-dev
 	url = ../golang-dev.git
-	branch = .
 [submodule "latex-dev"]
-	path = .
+	path = latex-dev
 	url = ../latex-dev.git
-	branch = .
 [submodule "python-dev"]
-	path = .
+	path = python-dev
 	url = ../python-dev.git
-	branch = .
 [submodule "r-dev"]
-	path = .
+	path = r-dev
 	url = ../r-dev.git
-	branch = .
 [submodule "ruby-dev"]
-	path = .
+	path = ruby-dev
 	url = ../ruby-dev.git
-	branch = .
