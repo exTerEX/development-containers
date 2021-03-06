@@ -7,3 +7,6 @@ insert_final_newline = true
 [Dockerfile]
 charset = utf-8
 indent_style = space
+
+[.gitmodules]
+indent_style = tab
