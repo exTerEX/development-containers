@@ -65,7 +65,7 @@ ENV DEBIAN_FRONTEND dialog
 
 USER ${USERNAME}:${USERNAME}
 
-COPY --chown=${USERNAME}:${USERNAME} dotfiles ${HOME}
+COPY --chown=${USERNAME}:${USERNAME} .bashrc ${HOME}/
 
 RUN sudo rmdir /srv
 
