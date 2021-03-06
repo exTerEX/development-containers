@@ -26,7 +26,7 @@ RUN sudo apt update \
     python3-pip
 
 RUN sudo update-alternatives --install /usr/local/bin/python python /usr/bin/python3 1 \
-    sudo update-alternatives --install /usr/local/bin/pip pip /usr/bin/pip3 1
+    && sudo update-alternatives --install /usr/local/bin/pip pip /usr/bin/pip3 1
 
 ENV DEBIAN_FRONTEND dialog
 
