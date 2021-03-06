@@ -32,6 +32,7 @@ RUN apt update \
     apt-utils \
     ca-certificates \
     curl \
+    software-properties-common \
     make
 
 RUN apt --assume-yes install --no-install-recommends locales \
