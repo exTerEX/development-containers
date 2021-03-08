@@ -20,10 +20,6 @@ ARG GID=${UID}
 
 ENV HOME /home/${USERNAME}
 ENV PATH /usr/local/bin:$PATH:${HOME}/.local/bin
-ENV TZ UTC
-
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime \
-    && echo $TZ > /etc/timezone
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -34,6 +30,7 @@ RUN apt update \
     curl \
     software-properties-common \
     make
+    tzdata
 
 RUN apt --assume-yes install --no-install-recommends locales \
     && echo "en_US.UTF-8 UTF-8" >> /etc/locale.gen \
