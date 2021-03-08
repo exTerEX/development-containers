@@ -18,17 +18,13 @@ where *<ENV>* is any of the images in `*-dev` directories, e.g. `exterex/cpp-dev
 All images contain a non-root user, `vscode` (default) and can be changed with,
 
 ```json
-{
-    "remoteUser": ""
-}
+"remoteUser": ""
 ```
 
 By default Visual Studio Code rebuild image to update UID/GID to match local user's UID/GID. To disable this,
 
 ```json
-    {
-        "updateRemoteUserUID": false
-    }
+"updateRemoteUserUID": false
 ```
 
 ## Contribute
