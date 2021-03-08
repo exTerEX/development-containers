@@ -4,7 +4,32 @@ A project to create developer centric containers for development using [Visual S
 
 ## Example
 
+To use a devcontainer in Visual Studio Code, add `.devcontainer/devcontainer.json` to your workspace. In `devcontainer.json` add,
 
+```json
+{
+    "name": "",
+    "image": "<ENV>"
+}
+```
+
+where *<ENV>* is any of the images in `*-dev` directories, e.g. `exterex/cpp-dev:latest`, `exterex/r-dev:latest`, etc.
+
+All images contain a non-root user, `vscode` (default) and can be changed with,
+
+```json
+{
+    "remoteUser": ""
+}
+```
+
+By default Visual Studio Code rebuild image to update UID/GID to match local user's UID/GID. To disable this,
+
+```json
+    {
+        "updateRemoteUserUID": false
+    }
+```
 
 ## Contribute
 
