@@ -27,6 +27,14 @@ By default Visual Studio Code rebuild image to update UID/GID to match local use
 "updateRemoteUserUID": false
 ```
 
+To sync time and timezone from local machine to devcontainer use,
+
+```json
+"runArgs": [
+    "-v", "/etc/localtime:/etc/localtime:ro"
+]
+```
+
 ## Contribute
 
 
