@@ -29,7 +29,7 @@ RUN apt update \
     ca-certificates \
     curl \
     software-properties-common \
-    make
+    make \
     tzdata
 
 RUN apt --assume-yes install --no-install-recommends locales \
