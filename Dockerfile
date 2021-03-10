@@ -28,7 +28,6 @@ RUN apt update \
     apt-utils \
     ca-certificates \
     curl \
-    software-properties-common \
     make \
     tzdata
 
