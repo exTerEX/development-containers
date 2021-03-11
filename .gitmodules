@@ -13,6 +13,3 @@
 [submodule "r-dev"]
 	path = r-dev
 	url = ../r-dev.git
-[submodule "ruby-dev"]
-	path = ruby-dev
-	url = ../ruby-dev.git
