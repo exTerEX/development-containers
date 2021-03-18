@@ -13,3 +13,6 @@
 [submodule "r-dev"]
 	path = r-dev
 	url = ../r-dev.git
+[submodule "base-dev"]
+	path = base-dev
+	url = ../base-dev
