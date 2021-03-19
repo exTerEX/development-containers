@@ -1,9 +1,0 @@
-.github/
-.devcontainer/
-.vscode/
-*-dev/
-.dockerignore
-.gitignore
-.editorconfig
-LICENSE
-README.md
